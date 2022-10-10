@@ -14,7 +14,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## Description
 
--  Profile card component
+- Profile Card Component
 - Frontend Mentor Challenge
 
 ### Screenshot
@@ -24,7 +24,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [](https://profile-card-component-seven-green.vercel.app/)
 
 ### Built with
 
@@ -35,4 +35,4 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## Author
 
-- Website - [Bernardo Sanchez](https://www.your-site.com)
+- Website - [Bernardo Sanchez](https://profile-card-component-seven-green.vercel.app/)
