@@ -1,0 +1,111 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark: hsl(229, 23%, 23%);
+  --dark-gray: hsl(227, 10%, 46%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1 rem = 10 px
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: var(--dark-cyan); 
+  font-family: 'Kumbh Sans', sans-serif;  
+  background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+
+// Contenedor Card 
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+// Card: diseño interno (body y footer)
+.card{
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden; //si la img es mas grande, debe respetar el tamaño del contenedor y ocultar lo sobrante
+  max-width: 320px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+  
+  &-img-top{
+    width: 100%; //ajustamos la img al ancho del contenedor padre
+    display: block; //le sacamos el "espacio fantasma" entre la img victor y la img azul
+  }
+  // Cuerpo de la card: img, name y city
+  &-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.288);
+
+    &-img{
+      border: 5px solid white;
+      border-radius: 50%;
+      margin-top: calc(-48px - 5px); //Para subirla: divide el tamaño de la img en 2 : 90px/2
+      background-color: white;
+    }
+
+    &-name{
+      font-size: 1.8rem;
+      margin-top: 2rem;
+      
+      span{
+        font-weight: 400;
+        color: var(--dark-gray);
+        margin-left: 1rem;
+      }
+    }
+
+    &-city{
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: var(--dark-gray);
+        margin-bottom: 2rem;
+        margin-top: 0;
+        
+    }
+    
+  }
+
+  // Footer de la card: social media
+  &-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    &-social{
+      text-align: center;
+      font-size: 1.4rem;
+      margin-bottom: 0px;
+      
+      h3{
+        color: var(--very-dark);
+        margin-bottom: 0.5rem;
+        
+      }
+      
+      p{
+        font-size: 1rem;
+        letter-spacing: 1px;
+        margin-top: 0px;
+        color: var(--dark-gray);
+        
+      }
+    }
+  }
+
+}
