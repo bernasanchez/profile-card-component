@@ -32,4 +32,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Website - [Profile Card Component](https://profile-card-component-seven-green.vercel.app/)
+- Website - [Bernardo Sanchez](https://vercel.com/bernasanchez)
