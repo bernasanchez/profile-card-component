@@ -24,7 +24,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: [](https://profile-card-component-seven-green.vercel.app/)
+- Solution URL: [Profile Card Component](https://profile-card-component-seven-green.vercel.app/)
 
 ### Built with
 
@@ -35,4 +35,4 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## Author
 
-- Website - [Bernardo Sanchez](https://profile-card-component-seven-green.vercel.app/)
+- Website - [Profile Card Component](https://profile-card-component-seven-green.vercel.app/)
