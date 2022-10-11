@@ -1,14 +1,12 @@
-# Profile Card Component - Frontend Mentor -
+# Profile Card Component 
 
 This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). 
-Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Description](#description)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -20,7 +18,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ### Screenshot
 
 ![](..design/desktop-design.jpg)
-
 
 ### Links
 
